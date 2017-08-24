@@ -16,16 +16,19 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [Yes,but I am using the realm database] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [Yes] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
 * [Yes] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 * [Yes] Add support for completion due dates for todo items (and display within listview item)
 * [No] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
-* [Yes,but I am using the recycleView item instead] Add support for selecting the priority of each todo item (and display in listview item)
+* [Yes] Add support for selecting the priority of each todo item (and display in listview item)
 * [Yes] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 
 The following **additional** features are implemented:
 
-* [I used two fragments in an Activity, and let these two fragments comunicating to each other:Once you click the item on the recycleView on the left, the inforamtion will pop out on the right,but One thing I am still working on is to try to make a change of the item,and click the Edit Button, the RecyleView would imedietly changed as well ] List anything else that you can get done to improve the app functionality!
+* I used two fragments in an Activity, and let these two fragments comunicating to each other:
+Once you click the item on the recycleView on the left, the inforamtion will pop out on the right.
+
+The thing I am still working on is to try to make a change of the item,and click the Edit Button, the RecyleView would imedietly changed as well.
 
 ## Video Walkthrough
 
@@ -41,11 +44,11 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [feels good,I used Eclipse before,the Android Studio is more confortable than Eclipse, it gona save a lot of work using Android studio].
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [adapter is improtant in android studio,it's role is like a bridge between the UI thing and the data, because of adapter these two things can talk to each other].
 
 ## Notes
 
